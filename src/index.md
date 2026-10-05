@@ -3,7 +3,7 @@ title: Cultivating Lives
 ---
 # Cultivating Lives
 
-## Welcome to our part of the world
+## Welcome 
 
 This is our experimental 11ty version of the Cultivating Lives website.
 
