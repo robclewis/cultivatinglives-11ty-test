@@ -9,7 +9,7 @@ hero:
   message: At Cultivating Lives, we come alongside to help you heal, live life,
     love, and laugh again.
   availability: Offering In-Person & Virtual Sessions
-  image: /images/pexels-kindelmedia-7148443-scaled-e1723728812315[1].jpg
+  image: /images/pexels-eyupbelen-1428634-scaled-e1723728851580[1].jpg
 therapists:
   - name: Richard Langston RP
     title: Clinical Director / Registered Psychotherapist
