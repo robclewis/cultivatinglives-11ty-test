@@ -1,14 +1,13 @@
 ---
 title: Cultivating Lives for Life
 hero:
-  heading: Counseling Services for Couples, & Individuals
-  subheading: What does your summer hold for you?
-  lead: Struggling with trauma, postpartum depression, grief, anxiety, life
-    transitions, or relational issues?
-  message: At Cultivating Lives, we come alongside to help you heal, live life,
-    love, and laugh again.
-  availability: Offering In-Person & Virtual Sessions
-  image: /images/pexels-eyupbelen-1428634-scaled-e1723728851580[1].jpg
+  heading: "Counseling Services for Couples, & Individuals"
+  subheading: "What does your summer hold for you?"
+  lead: "Struggling with trauma, postpartum depression, grief, anxiety, life transitions, or relational issues?"
+  message: "At Cultivating Lives, we come alongside to help you heal, live life, love, and laugh again."
+  availability: "Offering In-Person & Virtual Sessions"
+  image: "/images/hero.jpg"
+
 therapists:
   - name: Richard Langston RP
     title: Clinical Director / Registered Psychotherapist
