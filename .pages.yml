@@ -31,6 +31,9 @@ content:
           - name: availability
             label: Session Availability
             type: string
+          - name: image
+            label: Hero Image
+            type: image
 
       - name: therapists
         label: Therapists
@@ -46,6 +49,9 @@ content:
           - name: title
             label: Professional Title
             type: string
+          - name: photo
+            label: Photo
+            type: image
           - name: description
             label: Description
             type: text

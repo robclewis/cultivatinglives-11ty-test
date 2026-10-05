@@ -32,21 +32,41 @@
 <main>
 
 <section class="hero">
-    <div class="wrap">
-        <h1>{{ hero.heading }}</h1>
-        <h3>{{ hero.subheading }}</h3>
-        <p class="hero-lead">{{ hero.lead }}</p>
-        <p class="hero-message">{{ hero.message }}</p>
-        <p class="availability">{{ hero.availability }}</p>
+    <div class="wrap hero-grid">
+        <div class="hero-copy">
+            <h1>{{ hero.heading }}</h1>
+            <h3>{{ hero.subheading }}</h3>
+            <p class="hero-lead">{{ hero.lead }}</p>
+            <p class="hero-message">{{ hero.message }}</p>
+            <p class="availability">{{ hero.availability }}</p>
+        </div>
+
+        {% if hero.image %}
+        <div class="hero-image-wrap">
+            <img
+                class="hero-image"
+                src="{{ hero.image }}"
+                alt=""
+            >
+        </div>
+        {% endif %}
     </div>
 </section>
 
 <section class="therapists wrap">
     {% for therapist in therapists %}
     <article class="therapist-card">
+        {% if therapist.photo %}
+        <img
+            class="therapist-photo"
+            src="{{ therapist.photo }}"
+            alt="{{ therapist.name }}"
+        >
+        {% else %}
         <div class="photo-placeholder">
             Photo
         </div>
+        {% endif %}
         <div>
             <h2>{{ therapist.name }}</h2>
             <p class="therapist-title">{{ therapist.title }}</p>
