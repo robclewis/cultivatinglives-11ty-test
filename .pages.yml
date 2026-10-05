@@ -2,6 +2,10 @@ media:
   input: src/images
   output: /images
 
+settings:
+  content:
+    merge: true
+
 content:
   - name: home
     label: Home Page
