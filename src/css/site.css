@@ -211,6 +211,25 @@ body {
     .hero {
         padding: 38px 0;
     }
+     .hero-inner {
+        grid-template-columns: 1fr;
+        min-height: 0;
+    }
+
+    .hero-copy-wrap {
+        justify-content: normal;
+        padding: 38px 20px;
+    }
+
+    .hero-copy {
+        width: 100%;
+    }
+
+    .hero-image {
+        min-height: 0;
+        height: 320px;
+    }
+}
 
     .hero-grid,
     .therapists,
@@ -218,9 +237,7 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .hero-image {
-        height: 300px;
-    }
+ 
 
     .therapist-card {
         grid-template-columns: 1fr;
