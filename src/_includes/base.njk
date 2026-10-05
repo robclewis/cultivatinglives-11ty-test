@@ -32,13 +32,16 @@
 <main>
 
 <section class="hero">
-    <div class="wrap hero-grid">
-        <div class="hero-copy">
-            <h1>{{ hero.heading }}</h1>
-            <h3>{{ hero.subheading }}</h3>
-            <p class="hero-lead">{{ hero.lead }}</p>
-            <p class="hero-message">{{ hero.message }}</p>
-            <p class="availability">{{ hero.availability }}</p>
+    <div class="hero-inner">
+
+        <div class="hero-copy-wrap">
+            <div class="hero-copy">
+                <h1>{{ hero.heading }}</h1>
+                <h3>{{ hero.subheading }}</h3>
+                <p class="hero-lead">{{ hero.lead }}</p>
+                <p class="hero-message">{{ hero.message }}</p>
+                <p class="availability">{{ hero.availability }}</p>
+            </div>
         </div>
 
         {% if hero.image %}
@@ -50,6 +53,7 @@
             >
         </div>
         {% endif %}
+
     </div>
 </section>
 
