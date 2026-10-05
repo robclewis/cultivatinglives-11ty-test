@@ -1,11 +1,9 @@
 ---
-layout: base.njk
 title: Cultivating Lives
 ---
-
 # Cultivating Lives
 
-## Welcome
+## Welcome to our part of the world
 
 This is our experimental 11ty version of the Cultivating Lives website.
 
