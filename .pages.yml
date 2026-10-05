@@ -1,0 +1,19 @@
+media:
+  input: src/images
+  output: /images
+
+content:
+  - name: home
+    label: Home Page
+    type: file
+    path: src/index.md
+    fields:
+      - name: title
+        label: Page Title
+        type: string
+
+      - name: body
+        label: Page Content
+        type: rich-text
+        options:
+          switcher: false
