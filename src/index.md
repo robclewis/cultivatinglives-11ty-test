@@ -12,11 +12,13 @@ hero:
 therapists:
   - name: Richard Langston RP
     title: Clinical Director / Registered Psychotherapist
+    photo: /images/richard11[1].jpg
     description: Specialty areas include communication, conflict resolution,
       reconciliation, pre-engagement counseling, pre-marriage counseling,
       marriage counseling, intimacy, and spirituality.
   - name: Amanda Ablett RP
     title: Registered Psychotherapist
+    photo: /images/Amanda-Sit-Original-1-24-scaled1-e1724168291456-277x300[1].jpg
     description: Serving Orangeville and Alliston. Supporting people through trauma,
       birth trauma, grief, postpartum depression, anxiety, depression, life
       transitions, and relational issues.
