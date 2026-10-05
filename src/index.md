@@ -1,14 +1,35 @@
 ---
-title: Cultivating Lives
+layout: base.njk
+title: Cultivating Lives for Life
+
+hero:
+  heading: "Counseling Services for Couples, & Individuals"
+  subheading: "What does your summer hold for you?"
+  lead: "Struggling with trauma, postpartum depression, grief, anxiety, life transitions, or relational issues?"
+  message: "At Cultivating Lives, we come alongside to help you heal, live life, love, and laugh again."
+  availability: "Offering In-Person & Virtual Sessions"
+
+therapists:
+  - name: "Richard Langston RP"
+    title: "Clinical Director / Registered Psychotherapist"
+    description: "Specialty areas include communication, conflict resolution, reconciliation, pre-engagement counseling, pre-marriage counseling, marriage counseling, intimacy, and spirituality."
+  - name: "Amanda Ablett RP"
+    title: "Registered Psychotherapist"
+    description: "Serving Orangeville and Alliston. Supporting people through trauma, birth trauma, grief, postpartum depression, anxiety, depression, life transitions, and relational issues."
+
+mission:
+  heading: "Mission"
+  text: "To meet people where they are in life; Together we build on the wellness while sifting through life's challenges."
+
+contact:
+  phone: "905-488-7755"
+  email: "richard@cultivatinglives.com"
+  address: "10245 Kennedy Road, Brampton, ON, L6Z 0C5"
+  serving: "Brampton, Bramalea, Mississauga, Georgetown, Erindale, Streetsville, Cooksville, Malton, Caledon"
 ---
-# Cultivating Lives
 
-## Welcome 
+Cultivating Lives comes alongside you. Together we sift through life challenges while building on the wellness found within you.
 
-This is our experimental 11ty version of the Cultivating Lives website.
+Meeting you where you are in your life experience allows you to tap into your inner resources and strengths. Combining those strengths with professional knowledge and experience can provide fresh insight, hope, and strategies for long-term positive change.
 
-We are testing whether a static website combined with Pages CMS can provide a simple editing experience for non-technical users.
-
-## Our Mission
-
-To meet people where they are in life.
+In addition to therapy, Cultivating Lives Counselling Services provides workshops on subjects including communication, conflict resolution, marriage, parenting, grief, and relationships.

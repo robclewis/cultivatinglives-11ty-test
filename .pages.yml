@@ -9,11 +9,77 @@ content:
     path: src/index.md
     fields:
       - name: title
-        label: Page Title
+        label: Browser Title
         type: string
 
+      - name: hero
+        label: Home Page Introduction
+        type: object
+        fields:
+          - name: heading
+            label: Main Heading
+            type: string
+          - name: subheading
+            label: Subheading
+            type: string
+          - name: lead
+            label: Introductory Question
+            type: text
+          - name: message
+            label: Introductory Message
+            type: text
+          - name: availability
+            label: Session Availability
+            type: string
+
+      - name: therapists
+        label: Therapists
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: title
+            label: Professional Title
+            type: string
+          - name: description
+            label: Description
+            type: text
+
+      - name: mission
+        label: Mission
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+          - name: text
+            label: Mission Statement
+            type: text
+
+      - name: contact
+        label: Contact Information
+        type: object
+        fields:
+          - name: phone
+            label: Phone
+            type: string
+          - name: email
+            label: Email
+            type: string
+          - name: address
+            label: Address
+            type: string
+          - name: serving
+            label: Areas Served
+            type: text
+
       - name: body
-        label: Page Content
+        label: Main Page Content
         type: rich-text
         options:
           switcher: false
