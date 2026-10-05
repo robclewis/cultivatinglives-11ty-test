@@ -1,4 +1,5 @@
 ---
+layout: base.njk
 title: Cultivating Lives for Life
 hero:
   heading: "Counseling Services for Couples, & Individuals"
@@ -16,7 +17,8 @@ therapists:
       marriage counseling, intimacy, and spirituality.
   - name: Amanda Ablett RP
     title: Registered Psychotherapist
-    description: Serving Orangeville and Alliston. Supporting people through trauma,
+    description:
+      Serving Orangeville and Alliston. Supporting people through trauma,
       birth trauma, grief, postpartum depression, anxiety, depression, life
       transitions, and relational issues.
 mission:
@@ -30,6 +32,7 @@ contact:
   serving: Brampton, Bramalea, Mississauga, Georgetown, Erindale, Streetsville,
     Cooksville, Malton, Caledon
 ---
+
 Cultivating Lives comes alongside you. Together we sift through life challenges while building on the wellness found within you.
 
 Meeting you where you are in your life experience allows you to tap into your inner resources and strengths. Combining those strengths with professional knowledge and experience can provide fresh insight, hope, and strategies for long-term positive change.
