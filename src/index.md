@@ -1,4 +1,5 @@
 ---
+layout: base.njk
 title: Cultivating Lives for Life
 hero:
   heading: Counseling Services for Couples, & Individuals
